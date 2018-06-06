@@ -1,0 +1,253 @@
+body {
+    font-family: 'Prata', serif;
+}
+
+#topRow {
+    background-image: url('../images/greyBack.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hpp {
+    margin-top: 30%;
+    color: #bdbdbd;
+    border-bottom:  6px solid #bdbdbd;
+    font-size: 180px;
+    width: 80%;
+    margin-left: 5%;
+    font-family: 'Headland One', serif;
+    line-height: 85%;
+}
+
+#beyondT {
+    font-family: 'Headland One', serif;
+}
+
+#content1 {
+    line-height: 200%;
+    font-size: 18px;
+}
+
+#beyond {
+    margin-top: 15px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.greyHeader {
+    padding-top: 2%;
+}
+
+
+#hydeLogoTop {
+    width: 100%;
+}
+
+.card-content {
+    margin-top: -5%;
+}
+
+.innerCard {
+    margin-bottom: 2%;
+    margin-left: 2%;
+     margin-top: -2%;
+    margin-right: -2%;
+}
+
+#logoCard {
+    margin-top: 30%;
+}
+
+#contactInfo {
+    margin-top: 5%;
+}
+
+.topLogos {
+    width: 80%;
+    height: 150px;
+}
+
+#livCard {
+    margin-left: 10%;
+}
+
+#livTop {
+    width: 100%;
+    height: 150px;
+}
+
+#mroP1 {
+    margin-top: -10%;
+    font-size: 18px;
+}
+
+#bottomAeg {
+    width: 80%;
+    height: 40px;
+    margin-top: 13%;
+}
+
+#innovative {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#aegStuff {
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#mroStuff {
+    width: 100%;
+}
+
+
+/*  this is for tablets */
+@media screen and (max-width: 990px) and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2){
+       #hpp {
+    margin-top: 5%;
+    color: #bdbdbd;
+    border-bottom:  6px solid #bdbdbd;
+    font-size: 100px;
+    width: 28%;
+    margin-left: 36%;
+    font-family: 'Headland One', serif;
+    line-height: 85%;
+}
+
+#beyondT {
+    margin-left: 5%;
+    margin-top: 0%;
+}
+#beyond {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#mroP1 {
+    margin-top: -5%;
+}
+
+#logoCard {
+    margin-top: 0%;
+      width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.innerCard {
+    margin-bottom: 2%;
+    margin-left: 2%;
+     margin-top: -2%;
+    margin-right: -2%;
+    width: 100%;
+}
+
+.outerCard {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#hydeLogoTop {
+     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
+#contactInfo {
+    margin-top: 2%;
+}
+
+   .topLogos {
+    width: 80%;
+    height: 180px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#mroP1 {
+    margin-top: 0%;
+}
+
+#bottomAeg {
+    width: 80%;
+    height: 60px;
+    margin-top: 10%;
+}
+
+#mroStuff {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+}
+ /*end tablets*/
+
+
+/*  this is for phones */
+@media screen and (max-width: 600px) and (min-width: 250px) and (-webkit-min-device-pixel-ratio: 2){
+    
+    #hpp {
+    margin-top: 5%;
+    color: #bdbdbd;
+    border-bottom:  6px solid #bdbdbd;
+    font-size: 100px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Headland One', serif;
+    line-height: 85%;
+}
+
+#beyondT {
+    margin-left: 5%;
+    margin-top: 0%;
+}
+#beyond {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#logoCard {
+    margin-top: 0%;
+}
+
+#contactInfo {
+    margin-top: 2%;
+}
+    
+    .topLogos {
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#mroP1 {
+    margin-top: -2%;
+}
+
+#bottomAeg {
+    width: 80%;
+    height: 60px;
+    margin-top: 10%;
+}
+
+#mroStuff {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+}
+ 
