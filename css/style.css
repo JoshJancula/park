@@ -107,20 +107,20 @@ body {
 
 
 /*  this is for tablets */
-@media screen and (max-width: 990px) and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (max-width: 990px) and (min-width: 551px) and (-webkit-min-device-pixel-ratio: 2){
        #hpp {
     margin-top: 5%;
     color: #bdbdbd;
     border-bottom:  6px solid #bdbdbd;
     font-size: 100px;
-    width: 30%;
+    width: 32%;
     margin-left: 35%;
     font-family: 'Headland One', serif;
     line-height: 85%;
 }
 
 #beyondT {
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 0%;
 }
 #beyond {
@@ -194,14 +194,14 @@ body {
 
 
 /*  this is for phones */
-@media screen and (max-width: 600px) and (min-width: 250px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (max-width: 550px) and (min-width: 250px) and (-webkit-min-device-pixel-ratio: 2){
     
     #hpp {
     margin-top: 5%;
     color: #bdbdbd;
     border-bottom:  6px solid #bdbdbd;
     font-size: 100px;
-    width: 56%;
+    width: 57%;
     margin-left: 20%;
     font-family: 'Headland One', serif;
     line-height: 85%;
@@ -251,4 +251,37 @@ body {
 
 
 }
+
+/*end phones*/
+
+
+/*  this is for ipad specificaly */
+@media screen and (max-width: 1025px) and (min-width: 1023px) and (-webkit-min-device-pixel-ratio: 2){
+    
+    #hpp {
+    margin-top: 20%;
+    color: #bdbdbd;
+    border-bottom:  6px solid #bdbdbd;
+    font-size: 100px;
+    width: 60%;
+    margin-left: 15%;
+    font-family: 'Headland One', serif;
+    line-height: 85%;
+}
+
+    #beyondT {
+        font-size: 35px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#beyond {
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+    
+}
+
+/*end ipad*/
+    
  
